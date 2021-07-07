@@ -88,9 +88,9 @@
         "type": "collection",
         "settings": {
           "title": "Colección destacada",
-          "collection": "",
-          "grid": 4,
-          "rows": 2,
+          "collection": "vinos",
+          "grid": 3,
+          "rows": 1,
           "show_vendor": false,
           "show_view_all": false
         }
@@ -250,10 +250,10 @@
     },
     "content_for_index": [
       "1625559578aad913e6",
+      "collection",
       "hero-1",
       "feature-row",
       "feature-columns",
-      "collection",
       "hero-2",
       "quotes",
       "image-bar"
