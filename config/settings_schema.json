@@ -11,10 +11,10 @@
     "name": "Prueba",
     "settings": [
       {
-        "type": "color",
-        "id": "link_color",
-        "label": "Link Color",
-        "default": "#000"
+        "type": "text",
+        "id": "texto_prueba",
+        "label": "Texto",
+        "default": "Hello!"
       }
     ]
   },
