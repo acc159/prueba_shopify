@@ -9,11 +9,12 @@
   <h2>El objeto:</h2>
   {{ product }}
   <h2>Disponibilidad:</h2>
-  {{- product.available -}}
+  {{ product.available }}
   <h2>Titulo:</h2>
   {{ product.title }}
 
-<h3>Form:</h3>
+  <h3>Colecciones:</h3>
+  {{ collections }}
 
 
   {% assign ids = product.tags%}
