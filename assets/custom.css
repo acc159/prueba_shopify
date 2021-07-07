@@ -1,0 +1,16 @@
+body {
+    border: 20px red solid !important;
+}
+.boton_slider_custom{
+    color: white;
+    text-decoration: underline;
+
+}
+#SiteNav > li {
+    border-right: 1px solid grey;
+}
+
+
+#SiteNav {
+    border-top: 1px solid grey;
+}
