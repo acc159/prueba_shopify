@@ -1,5 +1,6 @@
 {
   "current": {
+    "texto_prueba": "Hola mundo",
     "sections": {
       "header": {
         "type": "header",
