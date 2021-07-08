@@ -6,3 +6,5 @@ if(top){
 }else{
     alert('No tenemos producto top')
 }
+
+alert('Hola')
