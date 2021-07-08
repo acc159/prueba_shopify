@@ -10,7 +10,7 @@
   <h2>Disponibilidad:</h2>
   <h3> {{ producto.available }} </h3>
   <h2>Imagen:</h2>
-  <img src="{{ producto.featured_image }}" alt="">
+  <img src="{{ producto | img_url }}" alt="">
 </div>
 
 {% endfor %}
