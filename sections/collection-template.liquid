@@ -24,12 +24,15 @@
   </style>
 
 <h1>Listado de productos de la coleccion: {{ collection.title}} </h1>
-{% for producto in collections.vinos.products %}
-<div class="contendor_productos" style="display:inline-block">
-  <h3> {{ producto.title }} </h3>
-  <h3> {{ producto.available }} </h3>
-  <img src="{{ producto | img_url }}" alt="">
-</div>
+
+
+{% assign productos = collections.vinos.products %}
+{% for producto in productos %}
+  <div class="contendor_productos" style="display:inline-block">
+    <h3> {{ producto.title }} </h3>
+    <h3> {{ producto.available }} </h3>
+    <img src="{{ producto | img_url }}" alt="">
+  </div>
 
 {% endfor %}
 
