@@ -18,6 +18,10 @@
 {% paginate collection.products by limit %}
 
 <h1>Hola que tal</h1>
+<h1></h1>
+{% for item in collection %}
+  
+{% endfor %}
 <div data-section-id="{{ section.id }}" data-section-type="collection-template">
   <header class="collection-header">
     {%- assign is_filter_by_available = false -%}
