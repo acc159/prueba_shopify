@@ -41,6 +41,8 @@
       alert(texto);
     }
   </script>
+
+  {%assign h = collection%}
   {% assign productos = collections.h.products %} 
   <h2>Productos: imprimir: </h2>{{ productos }}
   {% for producto in productos %}
