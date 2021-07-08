@@ -34,7 +34,10 @@
   {% assign h = collection.products %} 
   <script>
     alert('Hola');
-    console.log(h)  
+    console.log(h)
+    
+    document.querySelector('boton_custom_productos').addEventListener('click', boton_input, false);
+    
     function boton_input(){
       let texto = document.querySelector('.input_custom_productos');
       alert(texto);
