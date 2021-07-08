@@ -4,11 +4,13 @@
 
 {% assign productos = collection.products %}
 {% for producto in productos %}
-<div style="display:inline">
-  <h1>Nombre del producto:</h1>
-  <h2> {{ producto.title }} </h2>
-  <h1>Disponibilidad:</h1>
-  <h2> {{ producto.available }} </h2>
+<div style="display:inline-block">
+  <h2>Nombre del producto:</h2>
+  <h3> {{ producto.title }} </h3>
+  <h2>Disponibilidad:</h2>
+  <h3> {{ producto.available }} </h3>
+  <h2>Imagen:</h2>
+  <img src="{{ producto.image }}" alt="">
 </div>
 
 {% endfor %}
