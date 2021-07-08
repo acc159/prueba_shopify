@@ -4,7 +4,7 @@
 <!-- Recorremos los productos de la coleccion actual para mostrar sus atributos -->
 {% assign productos = collections.vinos.products %}
 {% for producto in productos %}
-<div style="display:inline-block">
+<div class="contendor_productos" style="display:inline-block">
   <h2>Nombre del producto:</h2>
   {% if producto.title == "Producto1" %}
     <h2>Este es el mejor producto</h2>
@@ -13,6 +13,12 @@
     <h3> {{ producto.title }} </h3>
   {% endif %}
  
+
+  <style>
+    .contendor_productos{
+      display: flex;
+    }
+  </style>
 
   <h2>Disponibilidad:</h2>
   <h3> {{ producto.available }} </h3>
