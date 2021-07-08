@@ -30,11 +30,11 @@
 <div class="contendor_principal">
   {% assign productos = collections.vinos.products %}
   {% for producto in productos %}
-    <a href="{{ producto.url }}">Enlace</a>
+    <a href="{{ producto.url }}"> </a>
     <div class="contendor_productos" style="display:inline-block">
       <h3> {{ producto.title }} </h3>
       <h3> {{ producto.available }} </h3>
-      <div> <img src="{{ producto | img_url }}" alt=""></div>
+      <div> <a href="{{ producto.url }}"><img src="{{ producto | img_url }}" alt=""></a> </div>
     </div>
   {% endfor %} 
 </div>
