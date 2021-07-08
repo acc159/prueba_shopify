@@ -1,13 +1,17 @@
-let top = document.querySelector('.el_mejor_producto');
-if(top){
-    alert('Tenemos el producto top');
-}else{
-    alert('No tenemos producto top')
+function init(){
+    let top = document.querySelector('.el_mejor_producto');
+    if(top){
+        alert('Tenemos el producto top');
+    }else{
+        alert('No tenemos producto top')
+    }
+    
+    alert('Hola')
 }
-
-alert('Hola')
 
 
 function llamada_prueba(){
     console.log("Probando");
 }
+
+document.addEventListener('DOMContentLoaded',init,false);
