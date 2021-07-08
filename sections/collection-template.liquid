@@ -1,6 +1,9 @@
 
 <!-- Recorremos los productos de la coleccion actual para mostrar sus atributos -->
-<!-- {% assign productos = collections.vinos.products %}
+
+{% comment %}
+
+{% assign productos = collections.vinos.products %}
 {% for producto in productos %}
 <div class="contendor_productos" style="display:inline-block">
   <h2>Nombre del producto:</h2>
@@ -9,7 +12,9 @@
     <h3 class="el_mejor_producto"> {{ producto.title }} </h3>
   {% elsif condition %}
     <h3> {{ producto.title }} </h3>
-  {% endif %} -->
+  {% endif %} 
+
+{% endcomment %}
 
 
   <style> 
