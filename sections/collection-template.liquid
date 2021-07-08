@@ -31,7 +31,8 @@
   {{ collections['vinos'].handle }}
   {% assign h = collection.handle %}
   {{ h }}
-  {% assign productos = collections['{{ h }}'].products %}
+
+  {% assign productos = collections.{{ h }}.products %}
   <h2>Productos: imprimir: </h2>{{ productos }}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
