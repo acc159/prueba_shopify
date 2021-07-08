@@ -5,8 +5,6 @@ function init(){
     }else{
         alert('No tenemos producto top')
     }
-    
-    alert('Hola')
 }
 
 
