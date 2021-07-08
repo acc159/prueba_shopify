@@ -13,7 +13,7 @@
   {% elsif condition %}
     <h3> {{ producto.title }} </h3>
   {% endif %} 
-
+{% endfor %} 
 {% endcomment %}
 
 
@@ -34,7 +34,7 @@
     <img src="{{ producto | img_url }}" alt="">
   </div>
 
-{% endfor %}
+{% endfor %} 
 
 {% case section.settings.grid %}
   {% when 2 %}
