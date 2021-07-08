@@ -2,7 +2,7 @@
 <h2>Hola</h2>
 
 <!-- Recorremos los productos de la coleccion actual para mostrar sus atributos -->
-{% assign productos = all_products["teles"].products %}
+{% assign productos = collections.teles.products %}
 {% for producto in productos %}
 <div style="display:inline-block">
   <h2>Nombre del producto:</h2>
