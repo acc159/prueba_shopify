@@ -43,7 +43,8 @@
   </script>
 
   {%assign h = collection%}
-  {% assign productos = collections.vinos.products %} 
+  {% assign h2 = h.title %}
+  {% assign productos = collections.h2.products %} 
   <h2>Productos: imprimir: </h2>{{ productos }}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
