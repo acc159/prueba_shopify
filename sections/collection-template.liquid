@@ -30,6 +30,7 @@
 <div class="contendor_principal">
   {{ collections['vinos'].handle }}
   {% assign h = collection.handle %}
+  {{ h }}
   {% assign productos = collections['{{ h }}'].products %}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
