@@ -28,6 +28,7 @@
 <h1>Listado de productos de la coleccion: {{ collection.title}} </h1>
 
 <div class="contendor_principal">
+  {{ collection['vinos'].title }}
   {% assign h = collection.handle %}
   {% assign productos = collections['{{ h }}'].products %}
   {% for producto in productos %}
