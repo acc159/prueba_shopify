@@ -4,7 +4,10 @@
 
 {% assign productos = collection.products %}
 {% for producto in productos %}
-{{ producto.title }}
+<h1>Nombre del producto:</h1>
+<h2> {{ producto.title }} </h2>
+<h1>Disponibilidad:</h1>
+<h2> {{ producto.available }} </h2>
 {% endfor %}
 
 {% case section.settings.grid %}
