@@ -28,12 +28,12 @@
 <h1> Titulo {{ collection.title}} </h1>
 <h2>Prueba modificar</h2>
 <h3>Otra</h3>
+<input class="input_custom_productos" type="text">
 <div class="contendor_principal">
-  {{ collections['vinos'].handle }}
   {% assign h = collection.products %} 
-  {{ h }}
   <script>
-    console.log(h)
+    console.log(h)  
+    
   </script>
   {% assign productos = collections.h.products %} 
   <h2>Productos: imprimir: </h2>{{ productos }}
