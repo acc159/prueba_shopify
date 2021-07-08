@@ -28,7 +28,8 @@
 <h1>Listado de productos de la coleccion: {{ collection.title}} </h1>
 
 <div class="contendor_principal">
-  {% assign productos = collections.current.products %}
+  {{ collection.title }}
+  {% assign productos = collections['{{collection.title }}'].products %}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
     <div class="contendor_productos" style="display:inline-block">
