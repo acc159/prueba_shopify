@@ -32,6 +32,8 @@
   {% assign h = collection.handle %}
   {{ h }}
   {% assign productos = collections['{{ h }}'].products %}
+
+  {{ productos }}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
     <div class="contendor_productos" style="display:inline-block">
