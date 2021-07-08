@@ -29,7 +29,7 @@
 
 <div class="contendor_principal">
   {{ collection.title }}
-  {% assign productos = collections['{{collection.title }}'].products %}
+  {% assign productos = collections['vinos'].products %}
   {% for producto in productos %}
     <a href="{{ producto.url }}"> </a>
     <div class="contendor_productos" style="display:inline-block">
