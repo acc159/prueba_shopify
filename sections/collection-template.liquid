@@ -1,8 +1,8 @@
 <h1>Pruebas:</h1>
 <h2>Hola</h2>
 
-
-{% assign productos = collection.products %}
+<!-- Recorremos los productos de la coleccion actual para mostrar sus atributos -->
+{% assign productos = all_products["teles"].products %}
 {% for producto in productos %}
 <div style="display:inline-block">
   <h2>Nombre del producto:</h2>
