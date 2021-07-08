@@ -30,6 +30,7 @@
 <div class="contendor_principal">
   {% assign productos = collections.vinos.products %}
   {% for producto in productos %}
+    <a href="{{ producto.url }}">Enlace</a>
     <div class="contendor_productos" style="display:inline-block">
       <h3> {{ producto.title }} </h3>
       <h3> {{ producto.available }} </h3>
