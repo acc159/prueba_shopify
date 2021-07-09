@@ -15,6 +15,12 @@
         "id": "texto_prueba",
         "label": "Texto",
         "default": "Hello!"
+      },
+      {
+        "type": "checkbox",
+        "id": "checkbox_custom_entrada",
+        "label": "Show announcement",
+        "default": false
       }
     ]
   },
